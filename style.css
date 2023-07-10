@@ -64,7 +64,9 @@ color: gray;
    align-items: center;
 }
 .fet-img-01{
-   background-color: rgb(49, 115, 76);
+    background-color: rgb(40, 32, 32) ;
+    background: linear-gradient(to right,rgb(182, 107, 50),rgb(17, 214, 175));
+    background-blend-mode: overlay;
    padding: 50px 65px 0px 65px;
    padding-top: 50px;
    border-top-left-radius: 45%;
@@ -72,14 +74,19 @@ color: gray;
 
 }
 .fet-img-02{
-    background-color: rgb(165, 147, 16);
+    background-color: rgb(40, 32, 32) ;
+    background: linear-gradient(to right,rgb(224, 216, 216),rgb(21, 181, 199));
+    background-blend-mode: overlay;
    padding: 50px 40px 40px 40px;
    padding-top: 50px;
    border-top-left-radius: 45%;
    border-top-right-radius: 45%;
 }
 .fet-img-03{
-    background-color: rgba(23, 61, 85, 0.839);
+    /* background-color: rgba(23, 61, 85, 0.839); */
+    background-color: rgb(40, 32, 32) ;
+    background: linear-gradient(to right,rgb(106, 179, 93),rgb(30, 49, 22));
+    background-blend-mode: overlay;
    padding: 20px 70px 0px 70px;
    margin-bottom: 15px;
    border-top-left-radius: 45%;
@@ -110,7 +117,11 @@ color: red;
     width: 1440px;
     height: 320px;
     margin: auto;
-    background-color: rgb(212, 56, 17);
+    background-color: rgb(40, 32, 32) ;
+    background: linear-gradient(to right,rgb(93, 83, 83),rgb(156, 50, 50));
+    background-blend-mode: overlay;
+
+    
     border-radius: 15px;
 }
 .provide-img{
