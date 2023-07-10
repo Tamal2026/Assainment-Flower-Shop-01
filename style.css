@@ -172,3 +172,27 @@ color: red;
 }
 
 /* hot deal section End here */
+
+/* img item section start here */
+
+.img-item{
+    margin-top: 200px;
+    width: 80%;
+    margin-left: 250px;
+   
+}
+.img-item-text{
+    text-align: center;
+}
+.img-item-img{
+    margin-top: 25px;
+}
+.img-item-desc{
+    margin-top: 8px;
+    color: gray;
+}
+.img-item-all{
+    padding-left: 20px;
+}
+
+
