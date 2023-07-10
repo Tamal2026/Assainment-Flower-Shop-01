@@ -38,17 +38,17 @@ header{
 
 
 
-/* main section start here */
-.main-section-caption{
+/* Featured section Start here */
+.feature-section-caption{
     text-align: center;
     margin-top: 150px;
 }
-.main-description{
+.feature-description{
     padding-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: gray;
 }
-.main-title{
+.feature-title{
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -65,19 +65,26 @@ color: gray;
 }
 .fet-img-01{
    background-color: aquamarine;
-   padding: 50px 50px 0px 50px;
+   padding: 50px 65px 0px 65px;
    padding-top: 50px;
+   border-top-left-radius: 45%;
+   border-top-right-radius: 45%;
 
 }
 .fet-img-02{
     background-color: rgb(255, 240, 127);
-   padding: 50px 50px 40px 50px;
+   padding: 50px 40px 40px 40px;
    padding-top: 50px;
+   border-top-left-radius: 45%;
+   border-top-right-radius: 45%;
 }
 .fet-img-03{
     background-color: rgb(20, 120, 214);
-   padding: 20px 50px 0px 50px;
+   padding: 20px 70px 0px 70px;
    margin-bottom: 15px;
+   border-top-left-radius: 45%;
+   border-top-right-radius: 45%;
+
 }
 .featured-img-name{
     display: flex;
@@ -89,4 +96,42 @@ color: gray;
 }
 .fet-img-text-02{
     color: red;
+}
+
+
+
+
+
+
+/* Provide section Start here */
+.provide{
+    width: 1440px;
+    height: 320px;
+    margin: auto;
+    background-color: rgb(70, 225, 13);
+    border-radius: 15px;
+}
+.provide-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 100px 50px 0px 50px;
+   
+}
+
+.provide-desc{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    color: whitesmoke;
+}
+.provide-desc2{
+    padding-right: 20px;
+}
+.desc-1{
+    padding-right: 90px;
+}
+.desc-2{
+    padding-right: 75px;
 }
