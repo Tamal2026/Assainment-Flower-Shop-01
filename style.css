@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header section start here */
+header{
+    height: 88vh;
+    background-color: rgb(40, 32, 32) ;
+    background: linear-gradient(to right,gray,black);
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}
+.header-text{
+    width: 700;
+    height: 500;
+}
+.header-text-description{
+ padding-top: 25px;
+}
+.header-img{
+    padding: 50px 50px 0px 0px;
+}
+.primary-btn{
+    background-color: tomato;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 30px;
+    margin-top: 25px;
+}
+/* header section end here */
+
+
