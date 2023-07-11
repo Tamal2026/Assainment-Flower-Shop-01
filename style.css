@@ -195,7 +195,7 @@ color: gray;
 
 /* input section start here */
 .input-container{
-background-image: url('/asset/Rectangle\ 9.png'); 
+background-image: url('./asset/Rectangle\ 9.png'); 
 width: 1440px;
 height: 400px;
 margin: 150px 0px 0px 270px ;
