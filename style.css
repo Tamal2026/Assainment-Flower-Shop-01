@@ -195,4 +195,35 @@ color: red;
     padding-left: 20px;
 }
 
+/* img item section end here */
 
+/* input section start here */
+.input-container{
+background-image: url('/asset/Rectangle\ 9.png'); 
+width: 1440px;
+height: 300px;
+margin-left: 270px;
+
+}
+.input-text{
+    text-align: center;
+    margin-top: 300px;
+}
+.input-area{
+    display: flex;
+    justify-content: space-around;
+   gap: 8px;
+    align-items: center;
+    margin: 150px 0px 0px 300px;
+    
+}
+.input-box{
+   width: 500px;
+   height: 50px;
+   border: none;
+   border-radius: 8px;
+   margin: 15px 0px 0px 250px;
+}
+.btn-icon{
+    margin: 0px 555px 12px 0px;
+}
