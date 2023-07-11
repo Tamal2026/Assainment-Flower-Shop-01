@@ -86,7 +86,7 @@ color: gray;
     /* background-color: rgba(23, 61, 85, 0.839); */
     background-color: rgb(40, 32, 32) ;
     background: linear-gradient(to right,rgb(106, 179, 93),rgb(30, 49, 22));
-    background-blend-mode: overlay;
+     background-blend-mode: overlay;
    padding: 20px 70px 0px 70px;
    margin-bottom: 15px;
    border-top-left-radius: 45%;
@@ -104,12 +104,8 @@ color: gray;
 .fet-img-text-02{
     color: red;
 }
-.Feat-c{
-color: red;
-}
 
-
-
+/* feature section end here */
 
 
 /* Provide section Start here */
@@ -201,21 +197,28 @@ color: red;
 .input-container{
 background-image: url('/asset/Rectangle\ 9.png'); 
 width: 1440px;
-height: 300px;
-margin-left: 270px;
+height: 400px;
+margin: 150px 0px 0px 270px ;
+
 
 }
 .input-text{
     text-align: center;
-    margin-top: 300px;
+  
 }
 .input-area{
     display: flex;
     justify-content: space-around;
    gap: 8px;
     align-items: center;
-    margin: 150px 0px 0px 300px;
+    margin: 20px 0px 0px 300px;
     
+}
+.foot{
+
+ text-align: center;
+ padding: auto;
+ padding-top: 150px;
 }
 .input-box{
    width: 500px;
@@ -224,6 +227,44 @@ margin-left: 270px;
    border-radius: 8px;
    margin: 15px 0px 0px 250px;
 }
+.input-title{
+    font-size: 40px;
+}
+.input-desc{
+    padding-top: 15px;
+    color:red;
+}
 .btn-icon{
     margin: 0px 555px 12px 0px;
 }
+
+
+/* footer section start here */
+.footer-container{
+    width: 1920px;
+    height: 300px;
+    background-color: rgb(102, 94, 94) ;
+    background: linear-gradient(to right,rgb(57, 50, 50),rgb(47, 20, 20));
+    background-blend-mode: overlay;
+    color: whitesmoke;
+    text-align: center;
+  margin-top: 180px;
+  padding-top: 180px;
+}
+.footer-title{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+}
+.footer-flower{
+    color: red;
+}
+.footer-desc{
+    font-size: 18px;
+}
+.footer-last{
+    color: rgb(46, 162, 113);
+    padding-top: 20px;
+}
+
+/* footer section end here */
